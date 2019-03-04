@@ -1,0 +1,101 @@
+#head1{
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	color: white;
+    z-index: 2;
+    background-color: none;
+}
+.menu-header {
+    width: 80%;
+    top: 0;
+    position: fixed;
+   }
+.logo{
+	float: left;
+    position: absolute;
+    margin-top: -10px;
+    width: 300px;
+}
+.logo img {
+    max-height: 100px;
+  }
+.nav{
+	float: right;
+	padding-top: 10px;
+	
+}
+.nav ul li a{
+	color: white;
+}
+.nav ul li:hover a{
+	border-bottom: 1px solid #333333;
+}
+.carousel-caption {
+	top: 200px;		
+}
+
+
+  .content{
+      background: white;
+      margin: 130px auto;
+      width: 90%;
+      min-height: 500px;
+  }
+ .content .col-12{
+ 	text-align: center;
+ }
+  .content .col-12 h1{
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+.content .col-12 small{
+	font-style: italic;
+
+}
+.content img{
+	
+}
+
+#testi{
+	width: 100%;
+	height: 500px;
+}
+.one{
+  margin: 30px auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.con:hover .image {
+  opacity: 0.3;
+}
+
+.con:hover .middle {
+  opacity: 1;
+}
+#Comment input, #Comment textarea{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #999;
+}
